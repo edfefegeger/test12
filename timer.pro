@@ -11,17 +11,14 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    timer2.cpp \
     timer3.cpp
 
 HEADERS += \
     mainwindow.h \
-    timer2.h \
     timer3.h
 
 FORMS += \
     mainwindow.ui \
-    timer2.ui \
     timer3.ui
 
 # Default rules for deployment.
