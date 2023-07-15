@@ -1,13 +1,13 @@
 #ifndef TIMER2_H
 #define TIMER2_H
 
-#include <QDialog>
+#include <QWidget>
 
 namespace Ui {
 class timer2;
 }
 
-class timer2 : public QDialog
+class timer2 : public QWidget
 {
     Q_OBJECT
 
