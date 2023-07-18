@@ -37,6 +37,7 @@ void timer3::TimerSlot()
     if (years == 1932)
     {
        timer->stop();
+       ui->label_2->setText(QString("Игра окончена"));
     }
     ui->label->setText(QString::number(days) + "." + QString::number(months) + "." + QString::number(years));
 }
